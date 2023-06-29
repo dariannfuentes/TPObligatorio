@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-
+import { Item } from 'src/app/models/item';
 @Component({
   selector: 'app-item',
   templateUrl: './item.component.html',
@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ItemComponent implements OnInit{
 
   @Input() item: Item = new Item();
+
   ngOnInit(): void {
     
   }

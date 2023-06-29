@@ -1,5 +1,6 @@
 <div>
     <div>
+        <input type="checkbox">
         {{item.title}}
     </div>
     <div>
@@ -9,6 +10,9 @@
         {{item.quantity}}
     </div>
     <div>
-        {{item.otal}}
+        {{ (item.price * item.quantity)}}
+    </div>
+    <div>
+        <button>Eliminar</button>
     </div>
 </div>
