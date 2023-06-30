@@ -17,7 +17,8 @@ export class ItemsComponent implements OnInit {
 
   ngOnInit(): void {
     //this.items = [];
-    this.items = this.itemService.getItems();
+    //this.items = this.itemService.getItems();
+    this.itemService.getItems().subscribe(data => {this.items = data})
     this.getTotal();
   }
 
