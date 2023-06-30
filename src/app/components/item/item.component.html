@@ -13,6 +13,6 @@
         {{ (item.price * item.quantity) | currency}}
     </div>
     <div class="actions">
-        <button>Eliminar</button>
+        <button (click)="onDelete(item)">Eliminar</button>
     </div>
 </div>
