@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 .completed{
+    color: #ccc;
     text-decoration: line-through;
 }
 div{
