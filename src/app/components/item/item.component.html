@@ -4,13 +4,13 @@
         {{item.title}}
     </div>
     <div class="price">
-        {{item.price}}
+        {{item.price | currency}}
     </div>
     <div class="quantity">
         {{item.quantity}}
     </div>
     <div class="total">
-        {{ (item.price * item.quantity)}}
+        {{ (item.price * item.quantity) | currency}}
     </div>
     <div class="actions">
         <button>Eliminar</button>
