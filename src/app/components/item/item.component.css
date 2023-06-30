@@ -1,6 +1,11 @@
 .row{
     display: flex;
     box-sizing: border-box;
+    align-items: center;
+}
+.row:hover{
+    border-radius: 3px;
+    background: #eee;
 }
 .completed{
     color: #ccc;
@@ -36,4 +41,12 @@ div{
     text-align: center;
     box-sizing: border-box;
     padding: 0 5px;
+}
+button{
+    background-color: rgb(66, 150, 233);
+    font-weight: 600;
+}
+button:hover{   
+    border-radius: 3px;
+    background: #eee;
 }
