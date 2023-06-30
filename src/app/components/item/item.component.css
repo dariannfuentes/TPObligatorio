@@ -2,6 +2,9 @@
     display: flex;
     box-sizing: border-box;
 }
+.completed{
+    text-decoration: line-through;
+}
 div{
     padding: 5px 0;
 }
